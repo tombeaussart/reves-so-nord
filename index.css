@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(#020916, #1c233e);
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.navBar {
+    background-color: #020916;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: block;
+    top: -500px;
+    transition: top 0.5s;
+}
+
+.navBarContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.logoNavBarContainer {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoNavBar {
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: 10%;
+}
+
+.allTextNavBarContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textNavBarContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.textNavBar {
+    color: white;
+    text-decoration: none;
+    font: bold 0.9rem "Lucida Handwriting", sans-serif;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(10px);
+    object-fit: contain;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logoPlaneteContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainerVideo {
+    width: auto;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+}
+
+.homeSaturnContainer {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.homeSaturn {
+    width: 17%;
+    height: auto;
+    padding-left: 13%;
+}
+
+.homeLuneContainer {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    padding-left: 75%;
+    padding-top: 10%;
+    z-index: 2;
+}
+
+.homeLune {
+    width: 17%;
+    height: auto;
+}
+
+.homeRougeContainer {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.homeRouge {
+    width: 10%;
+    height: auto;
+    padding-top: 23%;
+    padding-left: 10%;
+}
+
+.homeBleueContainer {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.homeBleue {
+    width: 9%;
+    height: auto;
+    padding-top: 40%;
+    padding-left: 75%;
+}
+
+.homeCometeContainer {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.homeComete {
+    width: 100%;
+    height: auto;
+    padding-top: 20%;
+    padding-right: 40%;
+}
+
+.fontTitle {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.fontComment {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.logoVideo {
+    width: 50%;
+    height: auto;
+}
+
+.text-photo {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer {
+    width: auto;
+    height: auto;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.logoContainer {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendrierContainer {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-right: 200px;
+}
+
+.calendrier {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.artistes {
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+}
+
+.artistesContainer {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.map {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.buttonContainer {
+    width: auto;
+    height: 500px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    border: 2px;
+    padding: 15px 45px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    font: bold 1.5rem "Lucida Handwriting", sans-serif;
+}
+
+.footerContainer {
+    background-color: #000318;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3%;
+}
+
+.footerLogoContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogoRSNContainer {
+    width: 5%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+
+}
+
+.socialContainer {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLogo {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter {
+    width: 45%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etoilesL {
+    width: auto;
+    height: 100%;
+    position: static;
+
+}
+
+.etoilesR {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    text-align: right;
+    margin-top: 2%;
+    transform: rotate(90deg);
+}
+
+.etoilesContainer {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: -1;
+}
+
+.comete {
+    width: 75%;
+    height: 75%;
+    margin-left: -30%;
+    margin-top: -5%;
+    position: absolute;
+    transform: rotate(25deg);
+    z-index: -1;
+}
+
+.saturneContainer {
+    width: 100%;
+    height: auto;
+}
+
+.saturne {
+    width: 13%;
+    height: auto;
+    padding-left: 15%;
+    position: absolute;
+    transform: rotate(25deg);
+    z-index: -1;
+}
+
+.planetteBlueContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.planetteBlue {
+    width: 7%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.planetteRougeContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 10%;
+    position: absolute;
+    z-index: -1;
+}
+
+.planetteRouge {
+    width: 5%;
+    height: auto;
+    padding-right: 8%;
+}
+
+.luneContainer {
+    width: 100%;
+    height: auto;
+
+}
+
+.lune {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+.satelliteContainer {
+    width: 100%;
+    height: auto;
+
+}
+
+.satellite {
+    width: 2%;
+    height: auto;
+    float: right;
+    padding-right: 20%;
+
+}
+
+.satelliteContainer {
+    width: 100%;
+    height: auto;
+
+}
+
+.satellite {
+    width: 2%;
+    padding-right: 20%;
+    height: auto;
+    float: right;
+}
+
+
+.avionContainer {
+    width: 100%;
+    height: auto;
+    position: static;
+    padding-left: 30%;
+
+}
+
+.avion {
+    width: 5%;
+    height: auto;
+    transform: rotate(25deg);
+}
+
+.nuageContainer {
+    width: 100%;
+    height: auto;
+    position: static;
+
+}
+
+.nuage {
+    width: 100%;
+    height: auto;
+}
+
+.decorBasContainer {
+    width: auto;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+.decorBas {
+    width: 100%;
+    height: auto;
+    display: block;
+}
