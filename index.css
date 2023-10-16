@@ -16,6 +16,8 @@ body {
 
 .navBar {
     background-color: #020916;
+    opacity: 0.90;
+    backdrop-filter: blur(15px);
     width: 100%;
     height: auto;
     position: fixed;
@@ -468,8 +470,9 @@ button {
 .avionContainer {
     width: 100%;
     height: auto;
-    position: static;
+    position: absolute;
     padding-left: 30%;
+    z-index: -1;
 
 }
 
