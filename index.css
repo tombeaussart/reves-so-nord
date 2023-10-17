@@ -85,6 +85,7 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     overflow: hidden;
 }
 
@@ -97,91 +98,62 @@ video {
     align-items: center;
 }
 
-.logoContainerVideo {
-    width: auto;
+.logoPlaneteContainer img {
+    width: 100px;
     height: auto;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 25%;
-    margin-bottom: 25%;
-    position: absolute;
+}
+
+.logoPlaneteContainer img:nth-child(1) {
+    width: 50%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
-
-}
-
-.homeSaturnContainer {
-    width: 50%;
-    height: 50%;
     position: absolute;
-    z-index: 2;
-}
-
-.homeSaturn {
-    width: 17%;
-    height: auto;
-    padding-left: 13%;
-}
-
-.homeLuneContainer {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    padding-left: 75%;
+    padding-right: 20%;
     padding-top: 10%;
-    z-index: 2;
-}
+} 
 
-.homeLune {
-    width: 17%;
-    height: auto;
-}
-
-.homeRougeContainer {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    z-index: 2;
-}
-
-.homeRouge {
+.logoPlaneteContainer img:nth-child(2) {
     width: 10%;
     height: auto;
-    padding-top: 23%;
-    padding-left: 10%;
-}
-
-.homeBleueContainer {
-    width: 50%;
-    height: 50%;
+    padding-bottom: 25%;
+    padding-right: 35%;
     position: absolute;
     z-index: 2;
 }
 
-.homeBleue {
-    width: 9%;
+.logoPlaneteContainer img:nth-child(3) {
+    width: 10%;
     height: auto;
-    padding-top: 40%;
-    padding-left: 75%;
-}
-
-.homeCometeContainer {
-    width: 50%;
-    height: 50%;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+    padding-left: 38%;
+    padding-bottom: 10%;
+    z-index: 2;
 }
 
-.homeComete {
-    width: 100%;
+.logoPlaneteContainer img:nth-child(4) {
+    width: 5%;
     height: auto;
-    padding-top: 20%;
+    position: absolute;
+    z-index: 2;
     padding-right: 40%;
+}
+
+.logoPlaneteContainer img:nth-child(5) {
+    width: 5%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    padding-left: 32%;
+    padding-top: 25%;
+}
+
+.logoPlaneteContainer img:nth-child(6) {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
 }
 
 .fontTitle {
@@ -371,7 +343,7 @@ button {
 }
 
 .comete {
-    width: 75%;
+    width: 65%;
     height: 75%;
     margin-left: -30%;
     margin-top: -5%;
@@ -394,20 +366,20 @@ button {
     z-index: -1;
 }
 
-.planetteBlueContainer {
+.planeteBlueContainer {
     width: 100%;
     height: auto;
     position: absolute;
     z-index: -1;
 }
 
-.planetteBlue {
+.planeteBlue {
     width: 7%;
     height: auto;
     margin-left: 10%;
 }
 
-.planetteRougeContainer {
+.planeteRougeContainer {
     width: 100%;
     height: auto;
     display: flex;
@@ -418,7 +390,7 @@ button {
     z-index: -1;
 }
 
-.planetteRouge {
+.planeteRouge {
     width: 5%;
     height: auto;
     padding-right: 8%;
@@ -467,19 +439,17 @@ button {
 }
 
 
-.avionContainer {
+.planeContainer {
     width: 100%;
     height: auto;
     position: absolute;
-    padding-left: 30%;
     z-index: -1;
-
 }
 
-.avion {
+.plane {
     width: 5%;
     height: auto;
-    transform: rotate(25deg);
+    padding-left: 5%;
 }
 
 .nuageContainer {
