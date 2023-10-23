@@ -24,7 +24,7 @@ body {
 }
 
 section {
-    height: 100vh !important;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -44,7 +44,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 5rem
+    padding: 0 5rem;
+    z-index: -1;
 }
 
 .textContainer {

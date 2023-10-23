@@ -1,8 +1,14 @@
+#footerSection{
+    height: 100%;
+    object-fit: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
 .footerContainer {
     background-color: #010211;
     width: 100%;
-    height: fit-content;
-    padding-bottom: 3%;
 }
 
 .footerLogoContainer {
