@@ -1,0 +1,57 @@
+.navBar {
+    background-color: #020916;
+    opacity: 0.90;
+    backdrop-filter: blur(15px);
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    display: block;
+    top: -500px;
+    transition: top 0.5s;
+    z-index: 1;
+}
+
+.navBarContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.logoNavBarContainer {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoNavBar {
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: 10%;
+}
+
+.allTextNavBarContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textNavBarContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.textNavBar {
+    color: white;
+    text-decoration: none;
+    font: bold 0.9rem "Lucida Handwriting", sans-serif;
+}

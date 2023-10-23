@@ -1,0 +1,27 @@
+.artistes {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.artistesContainer {
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qui {
+    position: relative;
+}
+
+#planet1-qui {
+    width: 10%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    padding-left: 5%;
+    z-index: -1;
+}
+

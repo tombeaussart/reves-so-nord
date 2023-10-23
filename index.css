@@ -1,322 +1,58 @@
+@import "./styles/navBar.css";
+@import "./styles/video.css";
+@import "./styles/quoiSection.css";
+@import "./styles/quandSection.css";
+@import "./styles/ouSection.css";
+@import "./styles/quiSection.css";
+@import "./styles/reserverSection.css";
+@import "./styles/footer.css";
+
+
 * {
     margin: 0;
     padding: 0;
+}
 
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     background: linear-gradient(#020916, #1c233e);
     overflow-x: hidden;
+
 }
 
-.main {
-    width: 100%;
-    height: 100%;
-}
-
-.navBar {
-    background-color: #020916;
-    opacity: 0.90;
-    backdrop-filter: blur(15px);
-    width: 100%;
-    height: auto;
-    position: fixed;
-    display: block;
-    top: -500px;
-    transition: top 0.5s;
-}
-
-.navBarContainer {
-    width: auto;
-    height: auto;
-    display: flex;
-}
-
-.logoNavBarContainer {
-    width: 65px;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.logoNavBar {
-    width: 80%;
-    height: auto;
-    float: left;
-    padding: 10%;
-}
-
-.allTextNavBarContainer {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.textNavBarContainer {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.textNavBar {
-    color: white;
-    text-decoration: none;
-    font: bold 0.9rem "Lucida Handwriting", sans-serif;
-}
-
-video {
-    width: 100%;
-    height: 100%;
+section {
+    height: 100vh !important;
     object-fit: cover;
-    filter: blur(10px);
-    object-fit: contain;
-    transform: scale(1.1);
-    overflow: hidden;
-}
-
-.videoContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.logoPlaneteContainer {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logoPlaneteContainer img {
-    width: 100px;
-    height: auto;
-}
-
-.logoPlaneteContainer img:nth-child(1) {
-    width: 40%;
-    height: auto;
-    padding-bottom: 15%;
-    padding-left: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    padding-right: 20%;
-    padding-top: 10%;
-}
-
-.logoPlaneteContainer img:nth-child(2) {
-    width: 10%;
-    height: auto;
-    padding-bottom: 25%;
-    padding-right: 35%;
-    position: absolute;
-    z-index: 2;
-}
-
-.logoPlaneteContainer img:nth-child(3) {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    padding-left: 38%;
-    padding-bottom: 10%;
-    z-index: 2;
-}
-
-.logoPlaneteContainer img:nth-child(4) {
-    width: 5%;
-    height: auto;
-    position: absolute;
-    z-index: 2;
-    padding-right: 40%;
-}
-
-.logoPlaneteContainer img:nth-child(5) {
-    width: 5%;
-    height: auto;
-    position: absolute;
-    z-index: 2;
-    padding-left: 32%;
-    padding-top: 25%;
-}
-
-.logoPlaneteContainer img:nth-child(6) {
-    width: 25%;
-    height: auto;
-    position: absolute;
-    z-index: 2;
 }
 
 .fontTitle {
     color: white;
     padding-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .fontComment {
     color: white;
-    font-size: 1.5rem;
-}
-
-.logoVideo {
-    width: 50%;
-    height: auto;
+    font-size: 1.5em;
 }
 
 .text-photo {
-    width: 100%;
-    height: 800px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 5rem
 }
 
 .textContainer {
-    width: auto;
-    height: auto;
-    padding-right: 100px;
-    text-align: center;
-}
-
-.logo {
-    width: 50%;
-    height: auto;
-    object-fit: contain;
-}
-
-.logoContainer {
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-.calendrierContainer {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    padding-right: 200px;
-}
-
-.calendrier {
-    width: 75%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.artistes {
-    width: 75%;
-    height: auto;
-    object-fit: contain;
-}
-
-.artistesContainer {
-    width: 75%;
-    height: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.map {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-}
-
-
-.buttonContainer {
-    width: auto;
-    height: 500px;
-    position: static;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-button {
-    background-color: white;
-    border: 2px;
-    padding: 15px 45px;
-    border-radius: 50px;
-    text-align: center;
-    cursor: pointer;
-    font: bold 1.5rem "Lucida Handwriting", sans-serif;
-}
-
-.footerContainer {
-    background-color: #010310;
-    width: 100%;
-    height: auto;
-    padding-bottom: 3%;
-}
-
-.footerLogoContainer {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footerLogoRSNContainer {
-    width: 5%;
-    height: auto;
-    text-align: center;
-    position: absolute;
-
-}
-
-.socialContainer {
-    width: 75%;
-    height: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.socialLogo {
-    width: 25%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logoFooter {
-    width: 45%;
-    height: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .etoilesContainer {
@@ -338,130 +74,8 @@ button {
     transform: rotate(90deg);
 }
 
-.comete {
-    width: 35%;
-    height: auto;
-    position: absolute;
-    padding-left: 45%;
-    padding-right: 50%;
-    transform: rotate(25deg);
-    z-index: -1;
-}
-
-.planet4Container {
-    width: 100%;
-    height: auto;
-}
-
-.planet4 {
-    width: 8%;
-    height: auto;
-    padding-left: 10%;
-    padding-bottom: 10%;
-    position: absolute;
-    z-index: -1;
-}
-
-.planet3Container {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    z-index: -1;
-}
-
-.planet3 {
-    width: 7%;
-    height: auto;
-    margin-left: 10%;
-}
-
-.planet2Container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    padding-top: 10%;
-    position: absolute;
-    z-index: -1;
-}
-
-.planet2 {
-    width: 5%;
-    height: auto;
-    padding-right: 8%;
-}
-
-.planet1Container {
-    width: 100%;
-    height: auto;
-
-}
-
-.planet1 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    margin-left: 12%;
-    margin-top: 5%;
-    z-index: -1;
-}
-
-.satelliteContainer {
-    width: 100%;
-    height: auto;
-
-}
-
-.satellite {
-    width: 2%;
-    height: auto;
-    float: right;
-    padding-right: 20%;
-
-}
-
-.satelliteContainer {
-    width: 100%;
-    height: auto;
-
-}
-
-.satellite {
-    width: 2%;
-    padding-right: 20%;
-    height: auto;
-    float: right;
-}
-
-
-.planeContainer {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    z-index: -1;
-}
-
-.plane {
-    width: 5%;
-    height: auto;
-    padding-left: 5%;
-}
-
-.nuageContainer {
-    width: 100%;
-    height: auto;
-    position: static;
-
-}
-
-.nuage {
-    width: 100%;
-    height: auto;
-}
-
 .decorBasContainer {
-    width: auto;
+    width: 100%;
     height: fit-content;
     padding: 0;
     margin: 0;

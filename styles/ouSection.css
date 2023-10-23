@@ -1,0 +1,31 @@
+.map {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#ou {
+    position: relative;
+}
+
+#planet3-ou {
+    width: 7%;
+    height: auto;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    margin-left: 10%;
+    z-index: -1;
+
+}

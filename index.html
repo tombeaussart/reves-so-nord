@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reve So Nord</title>
+    <title>Rêves So Nord</title>
     <link href="index.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
 </head>
 
 <body>
-    <script src="navBar.js"></script>
+    <script src="app.js" type="module"></script>
 
-    <div class="navBar" id="navbar">
+    <header class="navBar" id="navbar">
         <div class="navBarContainer">
             <div class="logoNavBarContainer">
                 <a class="logoNavBar" href="#hautDePage">
@@ -37,10 +38,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <script src="parallax.js"></script>
-    <div class="videoContainer" id="hautDePage">
+    <section class="videoContainer" id="hautDePage">
         <video src="./assets/video.mp4" loop autoPlay muted></video>
 
         <div class="logoPlaneteContainer" id="parallax">
@@ -51,45 +51,25 @@
             <img src="./assets/planet3.png" />
             <img class="logoHome" src="./assets/logo.png" />
         </div>
-    </div>
+    </section>
 
-
-    <div class="etoilesContainer">
-        <img class="etoilesL" src="./assets/etoiles.png" />
-        <img class="etoilesR" src="./assets/etoiles.png" />
-        <img class="comete" src="./assets/comete.png" />
-    </div>
-
-
-
-    <div class="text-photo" id="quoi">
+    <section class="text-photo" id="quoi">
         <div class="logoContainer">
             <img class="logo" src="./assets/logo.png" alt="logo" />
         </div>
         <div class="textContainer">
-            <center>
-                <h3 class="fontTitle">C'est quoi ?</h3>
-            </center>
+            <h3 class="fontTitle">C'est quoi ?</h3>
             <p class="fontComment">
                 Les rêves so nord est un festival de musique ouvert à tous, aux sonorités rap, electro et rock.
             </p>
         </div>
-    </div>
+        <img id="planet4-quoi" class="planet4" src="./assets/planet4.png" />
+        <img id="comete-quoi" class="comete" src="./assets/comete.png" />
+    </section>
 
-    <div class="planet4Container" id="ou">
-        <img class="planet4" src="./assets/planet4.png" />
-    </div>
-
-    <div class="etoilesContainer">
-        <img class="etoilesL" src="./assets/etoiles.png" />
-        <img class="etoilesR" src="./assets/etoiles.png" />
-    </div>
-
-    <div class="text-photo">
+    <section class="text-photo" id="ou">
         <div class="textContainer">
-            <center>
-                <h3 class="fontTitle">C'est où ?</h3>
-            </center>
+            <h3 class="fontTitle">C'est où ?</h3>
             <p class="fontComment">
                 Au campus mont-houy à l'université de valenciennes !
             </p>
@@ -100,48 +80,26 @@
                 width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </div>
+        <img id="planet3-ou" class="planet3" src="./assets/planet3.png" />
+    </section>
 
-    <div class="planet3Container">
-        <img class="planet3" src="./assets/planet3.png" />
-    </div>
-
-    <div class="planet2Container">
-        <img class="planet2" src="./assets/planet2.png" />
-    </div>
-
-    <div class="etoilesContainer">
-        <img class="etoilesL" src="./assets/etoiles.png" />
-        <img class="etoilesR" src="./assets/etoiles.png" />
-    </div>
-
-    <div class="text-photo" id="quand">
+    <section class="text-photo" id="quand">
         <div class="calendrierContainer">
             <img class="calendrier" src="./assets/calendrier.png" alt="calendrier" />
         </div>
-        <div class="textContainer">
-            <center>
-                <h3 class="fontTitle">C'est quand ?</h3>
-            </center>
+        <section class="textContainer">
+            <h3 class="fontTitle">C'est quand ?</h3>
             <p class="fontComment">
                 Le 12 mai 2023 de 15h à 1h !
             </p>
-        </div>
-    </div>
+        </section>
+        <img id="planet2-quand" class="planet2" src="./assets/planet2.png" />
+        <img id="satellite-quand" class="satellite" src="./assets/satellite.png" />
+    </section>
 
-    <div class="satelliteContainer">
-        <img class="satellite" src="./assets/satellite.png" />
-    </div>
-
-    <div class="planet1Container">
-        <img class="planet1" src="./assets/planet1.png" />
-    </div>
-
-    <div class="text-photo" id="qui">
+    <section class="text-photo" id="qui">
         <div class="textContainer">
-            <center>
-                <h3 class="fontTitle">Il y&#39a qui ?</h3>
-            </center>
+            <h3 class="fontTitle">Il y&#39a qui ?</h3>
             <p class="fontComment">
                 DIDDI TRIX, BASSTRICK, VINK, 123, ELINA, BRAMO, JELYH, THE NORTH PROJECT, FENNX, KASE, BOKI, COUCOU et
                 bien d&#39autres.</h3>
@@ -150,32 +108,27 @@
         <div class="artistesContainer">
             <img class="artistes" src="./assets/artistes.png" alt="calendrier" />
         </div>
-    </div>
 
-    <div class="planeContainer" id="reserver">
-        <img class="plane" src="./assets/airplan.png" />
-    </div>
-    <div class="nuageContainer">
-        <img class="nuage" src="./assets/nuages.png" />
-    </div>
+        <img id="planet1-qui" class="planet1" src="./assets/planet1.png" />
+    </section>
 
 
 
-    <div class="buttonContainer">
+    <section class="buttonContainer" id="reserver">
+        <img id="plane-reserver" class="plane" src="./assets/airplan.png" />
+        <img id="nuage-reserver" class="nuage" src="./assets/nuages.png" />
+
         <a href="https://www.helloasso.com/associations/3-4-de-pouces/evenements/billetterie-festival-reves-so-nord">
             <button class="button">Reserver !</button>
         </a>
-    </div>
 
-
-    <div class="decorBasContainer">
+    </section>
+    <div class="decor-basContainer">
         <img class="decorBas" src="./assets/decor-bas.png" />
     </div>
 
-    <div class="footerContainer">
+    <section class="footerContainer">
         <div class="footerLogoContainer">
-            <div class="footerLogoRSNContainer">
-            </div>
             <div class="socialContainer">
                 <a class="socialLogo" href="https://www.facebook.com/profile.php?id=100090974880435">
                     <img class="socialLogo" src="./assets/logo-facebook.png" alt="logo-facebook" />
@@ -194,7 +147,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,36 @@
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+.logoContainer {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quoi {
+    position: relative;
+}
+
+#planet4-quoi {
+    width: 8%;
+    position: absolute;
+    transform: rotate(25deg);
+    z-index: -1;
+    left: 1%;
+    bottom: 1%;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+#comete-quoi {
+    width: 35%;
+    position: absolute;
+    top: 1%;
+    right: 20%;
+    transform: rotate(25deg);
+    z-index: -1;
+}
