@@ -6,6 +6,7 @@
 @import "./styles/quiSection.css";
 @import "./styles/reserverSection.css";
 @import "./styles/footer.css";
+@import "./styles/sponsors.css";
 
 
 * {
@@ -18,9 +19,8 @@ html {
 }
 
 body {
-    background: linear-gradient(#020916, #1c233e);
     overflow-x: hidden;
-
+    background-image: url("./assets/etoilesBackground.png"), linear-gradient(#020916, #1c233e);
 }
 
 section {
@@ -54,25 +54,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.etoilesContainer {
-    display: flex;
-    position: absolute;
-    z-index: -1;
-}
-
-.etoilesL {
-    width: 50%;
-    height: auto;
-}
-
-.etoilesR {
-    width: 50%;
-    height: auto;
-    z-index: -1;
-    margin-top: 2%;
-    transform: rotate(90deg);
 }
 
 .decorBasContainer {

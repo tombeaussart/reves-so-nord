@@ -1,0 +1,27 @@
+#TitleSponsors{
+ padding-left: 5%;
+ padding-bottom: 5%;
+}
+
+.imgSponsors{
+    width: 12vw;
+    height: auto;
+    padding: 2%;
+}
+ 
+#sectionSponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoSponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titleSponspors{
+    width: 50vw;
+    height: auto;
+}
