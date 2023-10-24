@@ -15,6 +15,7 @@ button {
     text-align: center;
     cursor: pointer;
     font: bold 1.5rem "Lucida Handwriting", sans-serif;
+    src: url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
 }
 
 #reserver {
