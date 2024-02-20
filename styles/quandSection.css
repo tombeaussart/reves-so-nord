@@ -35,3 +35,19 @@
     padding-bottom: 5%;
     z-index: -1;
 }
+
+@media screen and (max-width: 500px) {
+
+    .calendrierContainer {
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .calendrier {
+        width: 40vw;
+        height: auto;
+    }
+}

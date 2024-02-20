@@ -56,6 +56,6 @@ window.onload = function () {
 
 
     window.addEventListener('scroll', function () {
-        plane.style.transform = `translate( ${(window.scrollY / 5) - 250}%)`
+        plane.style.transform = `translate( ${(window.scrollY / 2) - 1550}%)`
     })
 }

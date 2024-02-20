@@ -25,3 +25,25 @@
     width: 50vw;
     height: auto;
 }
+
+@media screen and (max-width: 500px) {
+
+    .logoSponsors{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .imgSponsors{
+        width: 35vw;
+        height: auto;
+        padding: 10%;
+    }
+
+    #TitleSponsors{
+        padding-left: 5%;
+        padding-bottom: 5%;
+       }
+
+}

@@ -25,3 +25,13 @@
     z-index: -1;
 }
 
+@media screen and (max-width: 500px) {
+
+    .artistesContainer {
+        width: 75vw;
+        height: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
